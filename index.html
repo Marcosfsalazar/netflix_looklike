@@ -7,6 +7,8 @@
 
     <!--External Files-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -29,11 +31,11 @@
                 <p class="descricao">Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras lançaram legiões aos mares. "Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!". Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!</p>
 
                 <div class="button-billboard-container">
-                    <button role="button" class="button-billboard button_01">
+                    <button role="button" id="watch" class="button-billboard button_01" onclick="goTo(this.id)">
                         <i class="fas fa-play"></i>
                         Assistir   
                     </button>
-                    <button role="button" class="button-billboard button_02">
+                    <button role="button" id="moreInfo" class="button-billboard button_02" onclick="goTo(this.id)">
                         <i class="fas fa-info-circle"></i>
                         Mais informações
                     </button>
@@ -43,8 +45,36 @@
         </div>
     </main>
 
+    <!--Embarque nesse carrossel-->
+    <section class="carrosel">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-film" src="img/mini1.webp" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini2.webp" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini3.jpg" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini4.webp" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini5.webp" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini6.webp" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini7.jpg" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini8.webp" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini9.jpg" alt=""></div>
+            <div class="item"><img class="box-film" src="img/mini10.webp" alt=""></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="imgRow">
+                <img src="img/gitHub.png" id="gitHub" onclick="socialMedia(this.id)" alt="">
+                <img src="img/linkedinho.png" id="linkedIn" onclick="socialMedia(this.id)" alt="">
+            </div>
+            <p>Marcos F. Salazar</p>
+        </div>
+    </footer>
+
     <!--External Files-->
-    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/5edd75f115.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
