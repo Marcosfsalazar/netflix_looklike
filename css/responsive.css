@@ -1,0 +1,41 @@
+@media screen and (max-width:600px){
+    .main-movie .container{
+        overflow: hidden;
+    }
+
+    .main-movie .descricao{
+        font-size: 1rem;
+        width: 75%;
+    }
+
+    .main-movie{
+        height: 100%;
+    }
+
+    .item{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+}
+
+@media screen and (max-width:760px){
+    .main-movie .container{
+        overflow: hidden;
+    }
+
+    .main-movie .descricao{
+        font-size: 1rem;
+        width: 50%;
+    }
+
+    .main-movie{
+        height: 100%;
+    }
+
+    .item{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+}
