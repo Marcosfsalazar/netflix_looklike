@@ -18,7 +18,7 @@ $('.owl-carousel').owlCarousel({
 
 goTo = a=>{
     if(a == "watch"){
-        window.open("https://bit.ly/3gNjc19","blank");
+        window.open("https://bit.ly/3phgALL","blank");
     }
     if(a == "moreInfo"){
         window.open("https://bit.ly/3qYNWR8","blank")
